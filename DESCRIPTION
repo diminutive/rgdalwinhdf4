@@ -10,5 +10,8 @@ ByteCompile: true
 Roxygen: list(markdown = TRUE)
 Remotes: rforge/rgdal/pkg
 Imports: 
-    rgdal (>= 1.2-17)
+    rgdal (>= 1.2-17),
+    Rcpp
 RoxygenNote: 6.0.1
+LinkingTo: 
+    Rcpp

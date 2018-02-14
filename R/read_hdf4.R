@@ -1,3 +1,7 @@
+#' @useDynLib rgdalwinhdf4, .registration = TRUE
+#' @importFrom Rcpp sourceCpp
+NULL
+
 #' Read HDF4 file
 #'
 #' This function expects to use the HDF4Image driver of GDAL, and warns

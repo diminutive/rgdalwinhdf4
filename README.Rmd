@@ -19,3 +19,7 @@ knitr::opts_chunk$set(
 
 The goal of rgdalwinhdf4 is to read HDF4 on Windows, using Appveyor. 
 
+
+```R
+tools::package_native_routine_registration_skeleton("../rgdalwinhdf4", "src/init.c",character_only = FALSE)
+```
