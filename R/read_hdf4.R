@@ -1,6 +1,3 @@
-#' @useDynLib rgdalwinhdf4, .registration = TRUE
-#' @importFrom Rcpp sourceCpp
-NULL
 
 #' Read HDF4 file
 #'
@@ -11,7 +8,7 @@ NULL
 #'
 #' @return `rgdal SpatialGridDataFrame`
 #' @export
-#'
+#' @importFrom rgdal GDALinfo readGDAL
 #' @examples
 #' x <- read_hdf4()
 #' print(class(x))
